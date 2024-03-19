@@ -19,5 +19,5 @@ Using Readme from: https://www.toptal.com/developers/gitignore/api/windows,linux
 
 ### How to change models:
 - Change your models (in models.py).
-- Run `python manage.py makemigrations` to create migrations for those changes
+- Run `python manage.py makemigrations MIGRATIONNAME` to create migrations for those changes
 - Run `python manage.py migrate` to apply those changes to the database.
