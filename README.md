@@ -8,4 +8,9 @@ Using Readme from: https://www.toptal.com/developers/gitignore/api/windows,linux
 
 
 ### Some commands:
-* `manage.py runserver` will run a development server at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+* `python manage.py runserver` will run a development server at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+* `pip install mysqlclient` will install mysqlclient
+* fill in the User and Password on 81 and 82 of settings.py
+* Create the database schema manually.
+* Run `python manage.py migrate` to set up tables.
