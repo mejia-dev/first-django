@@ -21,3 +21,7 @@ Using Readme from: https://www.toptal.com/developers/gitignore/api/windows,linux
 - Change your models (in models.py).
 - Run `python manage.py makemigrations MIGRATIONNAME` to create migrations for those changes
 - Run `python manage.py migrate` to apply those changes to the database.
+
+
+### Create a super user:
+* `python manage.py createsuperuser` will add a super user.
