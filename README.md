@@ -17,6 +17,8 @@ Using Readme from: https://www.toptal.com/developers/gitignore/api/windows,linux
 ### Some commands:
 * `python manage.py runserver` will run a development server at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
+* `python manage.py test polls` will run tests against the polls app.
+
 ### How to change models:
 - Change your models (in models.py).
 - Run `python manage.py makemigrations MIGRATIONNAME` to create migrations for those changes
